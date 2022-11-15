@@ -130,13 +130,12 @@ a {
 /* Packages section */
 /* ****************** */
 .section-Packages {
-    padding-left: 30rem;
+    padding-left: 4rem;
     padding-top: 14rem;
 }
 .service-title {
     font-weight: 700;
     letter-spacing: -0.5px;
-    align-items: center;
     height: 2.2rem;
     font-size: 5rem;
     text-decoration: none;
@@ -147,7 +146,7 @@ a {
 /* Get in Touch */
 /* ****************** */
 
-.second-fold {
+.third-fold {
  background-color:gold;
  min-height: 80rem;
 }
