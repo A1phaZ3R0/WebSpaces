@@ -192,11 +192,3 @@ a {
 .get-in-touch-text-box {
     padding-left: 49rem;
 }
-hr.rounded {
-    border-top: 8px solid #462d12;
-    border-radius: 5px;
-  }
-hr.rounded2 {
-    border-top: 8px solid gold;
-    border-radius: 10px;
-  }
