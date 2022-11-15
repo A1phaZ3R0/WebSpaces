@@ -147,6 +147,10 @@ a {
 /* Get in Touch */
 /* ****************** */
 
+.second-fold {
+ background-color:gold;
+ min-height: 80rem;
+}
 .heading-secondary {
     font-size: 4.4rem;
     line-height: 1.2;
@@ -189,3 +193,11 @@ a {
 .get-in-touch-text-box {
     padding-left: 43.4rem;
 }
+hr.rounded {
+    border-top: 8px solid #462d12;
+    border-radius: 5px;
+  }
+hr.rounded2 {
+    border-top: 8px solid gold;
+    border-radius: 10px;
+  }
