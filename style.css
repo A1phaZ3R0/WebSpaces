@@ -1,0 +1,480 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+   
+html {
+    /* 10px / 16px = 0.625 =62.5*/
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+   
+body {
+    font-family: 'Rubik', sans-serif;
+    line-height: 1.5;
+    font-size: 1.5rem;
+    font-weight: 400;
+    overflow-x: hidden;
+    color: #523414;
+    background-color:gold;
+}
+    .heading-primary,
+   .heading-secondary,
+   .heading-tertiary {
+    font-weight: 700;
+    color: #523414;
+    letter-spacing: -0.5px;
+}
+.service-nav-opt2 {
+    font-weight: 700;
+    color: #523414;
+    letter-spacing: -0.5px;
+}
+.service-nav-opt2:hover {
+    font-size: 5.3rem;
+}
+    .heading-primary {
+    font-size: 5.2rem;
+    line-height: 1.05;
+    margin-bottom: 3.2rem;
+}
+   .heading-tertiary {
+    font-size: 3rem;
+    line-height: 1.2;
+    margin: 1.2rem;
+}
+   
+a {
+    text-decoration: none;
+}
+   .first-fold {
+    background-color:gold;
+    min-height: 80rem;
+}
+/* ****************** */
+/* Logo */
+/* ****************** */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    height: 9.6rem;
+    padding: 0 4.8rem;
+}
+   
+.logo {
+    height: 2.2rem;
+    font-size: 4.5rem;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    color: #462d12;
+}
+.logo:hover {
+    color: goldenrod;
+}
+   
+   /* ****************** */
+   /* Navigation */
+   /* ****************** */
+
+.main-nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 4.8rem;
+}
+.main-nav-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #462d12;
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+.main-nav-link:hover {
+    padding: 0.8rem 2rem;
+    border-radius: 9px;
+    color: #fff;
+    background-color: #52341496;
+    font-weight: bold;
+}
+
+.main-nav-link-home {
+    padding: 1.2rem 2.4rem;
+    border-radius: 9px;
+    color: #fff;
+    background-color: #523414;
+}
+.main-nav-link-our-services {
+    padding: 1.2rem 2.4rem;
+    border-radius: 9px;
+    color: #fff;
+    background-color: #523414;
+}
+.main-nav-link-login {
+    padding: 1.2rem 2.4rem;
+    border-radius: 9px;
+    color: #fff;
+    background-color: #523414;
+}
+.main-nav-link-about {
+    padding: 1.2rem 2.4rem;
+    border-radius: 9px;
+    color: #fff;
+    background-color: #523414;
+}
+
+/* ****************** */
+/* Hero section */
+/* ****************** */
+
+.section-hero {
+    padding: 15rem 0 9.6rem;
+}
+   
+.hero {
+    max-width: 75rem;
+    padding: 0 9.6rem;
+    align-items: left;
+}
+   
+.hero-description {
+    font-size: 2rem;
+    line-height: 1.6;
+    margin: 4.8rem 0;
+}
+
+.package1-text-box {
+    padding-left: 10rem;
+    padding-top: 20rem;
+    font-weight: 700;
+    border-radius: 20px;
+}
+
+/* ****************** */
+/* Packages section */
+/* ****************** */
+
+.section-Packages {
+    padding-left: 4rem;
+    padding-top: 14rem;
+}
+.service-title {
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    height: 2.2rem;
+    font-size: 5rem;
+    text-decoration: none;
+    text-align: center;
+    color: #462d12;
+}
+.packages {
+    justify-content: left;
+    align-content: left;
+    margin-left: 6rem;
+    margin-right: auto;
+    margin-top: -27rem;
+    width: 1300px;
+    padding: 5rem;
+}
+.package {
+    display: inline-flex;
+    font-weight: bold;
+    background-color: goldenrod;
+    border-radius: 9px;
+    box-shadow: -1px 1px 20px 4px #462d1225;
+    padding: 3rem;
+    width: 500px;
+    height: 500px;
+    text-align: left;
+    margin-top: 5rem;
+    margin-right: 5rem;
+    transition: ease-in-out 0.5s;
+}
+.package:hover {
+    box-shadow: -1px 1px 20px 4px #462d1276;
+}
+.package p{
+    display: flex;
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-top: 8rem;
+    margin-left: -39.8rem;
+    width: 400px;
+    height: 100%;
+}
+.package p2{
+    display: flex;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-top: 36rem;
+    margin-left: -39.8rem;
+    width: 400px;
+    height: 100%;
+    text-decoration: underline;
+}
+.package span{
+    display: flex;
+    font-size: 5rem;
+    font-weight: bold;
+    width: 400px;
+    height: 100%;
+    text-align: center;
+}
+.prices {
+    padding: 12rem;
+}
+.plans h1 {
+    font-size: 5rem;
+}
+/* ****************** */
+/* Get in Touch */
+/* ****************** */
+
+.third-fold {
+ background-color:gold;
+ min-height: 50rem;
+}
+.heading-secondary {
+    font-size: 4.4rem;
+    line-height: 1.2;
+    margin-bottom: 5.6rem;
+    text-align: center;
+}
+.heading-secondary:hover {
+    font-size: 4.8rem;
+}
+.getintouch-field {
+    background-color: #462d120c;
+    letter-spacing: -0.5px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 1px;
+    border-color: rgba(0, 0, 0, 0);
+    border-bottom-color: white;
+    border-radius: 3px;
+    color: white;
+
+}
+.getintouch-field:hover {
+    padding: 3px;
+}
+.getintouch-field-subscribe {
+    background-color: #462d12;
+    border-radius: 9px;
+    letter-spacing: -0.5px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 1px;
+    color: rgba(255, 255, 255, 0);
+    border-radius: 3px;
+    border-width: 360;
+    max-height: 359px;
+}
+.getintouch-field-check {
+    color: white;
+    letter-spacing: -0.5px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+.getintouch-field-check:hover {
+    font-size: 2rem;
+}
+.get-in-touch-text-box2 {
+    border-radius: 9px;
+    background-color: #462d12;
+    padding: 4rem;
+    color: white;
+    width: 360px;
+    text-align: center;
+}
+.get-in-touch-text-box2:hover {
+    box-shadow: -1px 1px 20px 12px #462d1225;
+    width: 365px;
+    height: 364px;
+}
+
+div.get-in-touch-text-box {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 360px
+}
+.hr {
+    border-color: #462d1200;
+    margin-top: 1.5rem;
+}
+/* ****************** */
+/* Login */
+/* ****************** */
+
+.login-field {
+    background-color: goldenrod;
+    letter-spacing: -0.5px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 1px;
+    color: #462d12;
+    line-height: 0;
+    border-color: rgba(0, 0, 0, 0);
+    border-radius: 3px;
+}
+.login-field:hover {
+    padding: 4px;
+    width: 34rem;
+}
+.signinbox {
+    position: relative;
+    width: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 50px;
+}
+.signinbox input {
+    width: 100%;
+    background: transparent;
+    color: white;
+    border: transparent;
+    outline: none;
+    font-size: 1.3em;
+    letter-spacing: 0.15rem;
+    padding: 10px 0 5px;
+}
+.signinbox password {
+    width: 100%;
+    background: transparent;
+    color: white;
+    border: transparent;
+    outline: none;
+    font-size: 1.3em;
+    letter-spacing: 0.15rem;
+    padding: 10px 0 5px;
+}
+.signinbox span {
+    position: absolute;
+    left: 0;
+    padding: 10px 0 5px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.749);
+    pointer-events: none;
+    letter-spacing: 0.15rem;
+    transition: 0.5s;
+    font-size: 1em;
+}
+.signinbox input:valid ~ span,
+.signinbox input:hover ~ span,
+.signinbox password:valid ~ span,
+.signinbox password:hover ~ span
+{
+    color: #462d12;
+    transform: translateY(-16px);
+    font-size: 0.65em;
+}
+.signinbox i {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: white;
+    overflow: hidden;
+    padding-top: 1px;
+}
+.signinbox i::after {
+    content: "";
+    position: absolute;
+    left: -100%;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, #ff1b69, #ff0, #2196f3, #9c27b0, #ff1b69);
+    animation: animate 2s linear infinite;
+}
+@keyframes animate
+{
+    0% 
+    {
+        background-position-x: 0;
+    }
+    100% 
+    {
+        background-position-x: 250px;
+    }
+}
+.signinbox input:valid ~ i::after,
+.signinbox input:hover ~ i::after,
+.signinbox password:valid ~ i::after,
+.signinbox password:hover ~ i::after
+{
+    left: 0;
+}
+.login-field-login {
+    width: 10rem;
+    font-size: 2.4rem;
+    background-color: goldenrod;
+    color: white;
+    border-color: rgba(0, 0, 0, 0);
+    font-weight: bold;
+}
+.login-field-login:hover {
+    font-size: 2.7rem;
+}
+.login-text-box {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 14rem;
+    margin-bottom: 16rem;
+    width: 600px;
+    height: 590px;
+}
+.login-text-box3 {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 14rem;
+    margin-bottom: 16rem;
+    width: 600px;
+    height: 780px;
+}
+.login-text-box2 {
+    border-radius: 15px;
+    background-color: goldenrod;
+    color: #ffffff;
+    width: 600px;
+    height: 620px;
+    padding: 4rem;
+    text-align: center;
+    box-shadow: -1px 1px 20px 5px #462d128f;
+}
+.login-text-box4 {
+    border-radius: 15px;
+    background-color: goldenrod;
+    color: #ffffff;
+    width: 600px;
+    height: 880px;
+    padding: 6rem;
+    text-align: center;
+    box-shadow: -1px 1px 20px 5px #462d128f;
+}
+.logosgnin {
+    font-size: 5rem;
+    padding: 8rem;
+    text-align: center;
+}
+.sign-up {
+    font-size: 2.2rem;
+    padding: 1rem;
+    color: white;
+}
+.sign-in-spacer {
+    border-color: rgba(0, 0, 0, 0);
+    margin-top: 1.5rem;
+}
